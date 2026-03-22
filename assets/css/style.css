@@ -225,6 +225,29 @@ a:hover {
   font-size: 1.1rem;
 }
 
+/* Schedule Table */
+.schedule-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 2rem;
+}
+
+.schedule-table td {
+  padding: 0.75rem 1rem;
+  border-bottom: 1px solid var(--light-gray);
+}
+
+.schedule-table td:first-child {
+  white-space: nowrap;
+  font-weight: 500;
+  color: var(--secondary-color);
+  width: 160px;
+}
+
+.schedule-table tr:last-child td {
+  border-bottom: none;
+}
+
 /* Footer */
 .footer {
   background: var(--primary-color);

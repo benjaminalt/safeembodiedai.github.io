@@ -1,6 +1,6 @@
-# Safe Embodied AI Workshop
+# Safe Physical AI Workshop
 
-Website for the Full-Day Workshop on Safe Embodied AI at IJCAI/ECAI 2026 in Bremen, Germany.
+Website for the 2-Day Workshop on Safe Physical AI at IJCAI/ECAI 2026 in Bremen, Germany.
 
 ## Development
 
