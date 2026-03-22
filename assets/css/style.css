@@ -77,10 +77,16 @@ body {
   color: var(--secondary-color);
 }
 
+.nav-menu a.nav-highlight {
+  color: var(--secondary-color);
+}
+
 /* Hero Section */
 .hero {
   margin-top: 60px;
-  background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+  background:
+    linear-gradient(135deg, rgba(44, 62, 80, 0.75) 0%, rgba(52, 152, 219, 0.65) 100%),
+    url('../img/banner.png') center / cover no-repeat;
   color: var(--white);
   padding: 6rem 0;
   text-align: center;
@@ -166,6 +172,23 @@ body {
   background: var(--white);
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.organizer .headshot {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+  flex-shrink: 0;
+  margin-top: 0.15rem;
+}
+
+.organizer .organizer-info {
+  flex: 1;
+  min-width: 0;
 }
 
 .bg-light .organizer {
